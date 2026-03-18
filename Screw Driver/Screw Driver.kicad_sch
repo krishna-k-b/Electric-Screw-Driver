@@ -4700,16 +4700,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 80.01) (xy 256.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0902b9bb-ccbd-417b-b5a0-be41fbd9d9db")
-	)
-	(wire
-		(pts
 			(xy 290.83 62.23) (xy 302.26 62.23)
 		)
 		(stroke
@@ -5070,6 +5060,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 77.47) (xy 256.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464ec1dc-3415-480e-a7ad-2d25ff94e77b")
+	)
+	(wire
+		(pts
 			(xy 162.56 142.24) (xy 154.94 142.24)
 		)
 		(stroke
@@ -5157,16 +5157,6 @@
 			(type default)
 		)
 		(uuid "5e35496d-74ab-4735-8ca9-825e46eb98db")
-	)
-	(wire
-		(pts
-			(xy 266.7 77.47) (xy 256.54 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6012dfaa-e424-46d6-9923-213183a71ee9")
 	)
 	(wire
 		(pts
@@ -5657,6 +5647,16 @@
 			(type default)
 		)
 		(uuid "c90cd7a5-5a67-4028-99a2-9aeb86954c94")
+	)
+	(wire
+		(pts
+			(xy 266.7 80.01) (xy 256.54 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca61adc9-34a6-4c34-b61b-cbc8ca7cfef3")
 	)
 	(wire
 		(pts
@@ -6319,7 +6319,7 @@
 		(uuid "a1851fbd-3427-4a94-a09b-91f7c530d09d")
 	)
 	(label "POT_SIG"
-		(at 266.7 77.47 180)
+		(at 266.7 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6479,7 +6479,7 @@
 		(uuid "e734d25b-b14d-4402-8129-3e7296d16072")
 	)
 	(label "C_SENSE"
-		(at 266.7 80.01 180)
+		(at 266.7 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
