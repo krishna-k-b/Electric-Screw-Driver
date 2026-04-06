@@ -1298,12 +1298,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:D_Schottky_AKA"
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1317,7 +1314,7 @@
 					)
 				)
 			)
-			(property "Value" "D_Schottky"
+			(property "Value" "D_Schottky_AKA"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1343,7 +1340,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Schottky diode"
+			(property "Description" "Schottky diode, anode on pins 1 and 3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1352,7 +1349,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_keywords" "diode Schottky SCHDPAK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1370,7 +1367,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_Schottky_0_1"
+			(symbol "D_Schottky_AKA_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
@@ -1395,9 +1392,20 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 2.54 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 3.81 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -1408,11 +1416,29 @@
 					)
 				)
 			)
-			(symbol "D_Schottky_1_1"
+			(symbol "D_Schottky_AKA_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1428,7 +1454,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -1437,7 +1463,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4776,6 +4802,12 @@
 		(uuid "11671685-d479-477b-814e-420a54534d3f")
 	)
 	(junction
+		(at 335.28 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "122ee70a-db36-4344-b61b-374191bd5df6")
+	)
+	(junction
 		(at 99.06 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4792,12 +4824,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "200dfee3-bbac-4ed0-8c1d-952e9486f475")
-	)
-	(junction
-		(at 346.71 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "291fc29c-a854-4fa0-9baf-0bcd9e72fa24")
 	)
 	(junction
 		(at 105.41 227.33)
@@ -4884,6 +4910,12 @@
 		(uuid "a01e8917-c4b5-45a2-9897-106b507a257e")
 	)
 	(junction
+		(at 346.71 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2052d6c-073b-457f-b1d9-86a4278bfbd0")
+	)
+	(junction
 		(at 278.13 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4912,6 +4944,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4cb771d-9a2e-4c87-be21-1b1a16f98751")
+	)
+	(junction
+		(at 334.01 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75e0f04-1582-4b46-a144-396a26dceac9")
 	)
 	(junction
 		(at 330.2 102.87)
@@ -5068,6 +5106,16 @@
 			(type default)
 		)
 		(uuid "036779cb-5251-4b72-b911-0aced320ae14")
+	)
+	(wire
+		(pts
+			(xy 344.17 147.32) (xy 346.71 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055ddc3f-f5b2-4ab8-9630-5f69dc880fbb")
 	)
 	(wire
 		(pts
@@ -5551,7 +5599,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 152.4) (xy 346.71 152.4)
+			(xy 342.9 157.48) (xy 346.71 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5591,16 +5639,6 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 152.4) (xy 331.47 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55b6d485-ff8d-4126-b942-99de198c698a")
-	)
-	(wire
-		(pts
 			(xy 251.46 144.78) (xy 259.08 144.78)
 		)
 		(stroke
@@ -5618,6 +5656,16 @@
 			(type default)
 		)
 		(uuid "581df2e8-f1e9-444d-9fb5-38a341f46b72")
+	)
+	(wire
+		(pts
+			(xy 331.47 157.48) (xy 334.01 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b10c228-18ec-4828-8fb3-2fd865f371bd")
 	)
 	(wire
 		(pts
@@ -5761,7 +5809,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 152.4) (xy 331.47 147.32)
+			(xy 331.47 157.48) (xy 331.47 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5808,6 +5856,16 @@
 			(type default)
 		)
 		(uuid "77f598c7-ef18-4860-b3ff-31ca8f8232a6")
+	)
+	(wire
+		(pts
+			(xy 334.01 157.48) (xy 334.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797708cf-1063-4eb7-b9ba-37f95fa29ed9")
 	)
 	(wire
 		(pts
@@ -5861,7 +5919,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 152.4) (xy 346.71 147.32)
+			(xy 346.71 157.48) (xy 346.71 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6101,6 +6159,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 147.32) (xy 335.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0827af4-e12a-48f9-b7d9-23e49bc1a7ea")
+	)
+	(wire
+		(pts
 			(xy 327.66 102.87) (xy 327.66 105.41)
 		)
 		(stroke
@@ -6268,16 +6336,6 @@
 			(type default)
 		)
 		(uuid "b4263f65-0e91-442c-a5e6-6d297b24028e")
-	)
-	(wire
-		(pts
-			(xy 346.71 147.32) (xy 342.9 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4bdd8b7-8059-4b4d-a3e8-e6db8734cff0")
 	)
 	(wire
 		(pts
@@ -8465,7 +8523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 105.41 222.25 0)
 			(effects
 				(font
@@ -9559,7 +9617,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DRV8701:RGE0024F_NV"
 			(at 83.82 57.15 0)
 			(effects
 				(font
@@ -9850,74 +9908,6 @@
 			(project "DRV8701-ESD"
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 339.09 147.32 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3dc5a8f8-d3ef-4c28-9e99-6191dc9385bc")
-		(property "Reference" "D2"
-			(at 339.4075 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RBR10N"
-			(at 339.4075 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 339.09 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://prod-parts-data.s3.amazonaws.com/RBR10NS40AFHTL/datasheet/1_RBR10NS40AFHTL-Rohm-datasheet-142143708.pdf"
-			(at 339.09 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RBR10NS40AFHTL"
-			(at 339.09 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12063f23-3bb0-421c-b298-4af2f82d1fed")
-		)
-		(pin "1"
-			(uuid "b06a7aa8-b6dd-4d5a-9059-6b8f5eab04d7")
-		)
-		(instances
-			(project ""
-				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -11369,7 +11359,7 @@
 		(dnp no)
 		(uuid "64df45e0-a1de-4571-9c08-12fbefc5b7ae")
 		(property "Reference" "C17"
-			(at 273.558 160.274 90)
+			(at 274.574 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11386,7 +11376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 270.51 161.29 0)
 			(effects
 				(font
@@ -12393,7 +12383,7 @@
 		(dnp no)
 		(uuid "7616fb59-6983-475d-bfcc-b3f21d15ca51")
 		(property "Reference" "C16"
-			(at 273.558 153.924 90)
+			(at 274.574 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,7 +12400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 270.51 154.94 0)
 			(effects
 				(font
@@ -13170,6 +13160,76 @@
 			(project "DRV8701-ESD"
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AKA")
+		(at 339.09 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8761d0d6-0272-4999-9396-af2406a0d4dd")
+		(property "Reference" "D2"
+			(at 339.09 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RBR10N"
+			(at 339.09 155.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 339.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-parts-data.s3.amazonaws.com/RBR10NS40AFHTL/datasheet/1_RBR10NS40AFHTL-Rohm-datasheet-142143708.pdf"
+			(at 339.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RBR10NS40AFHTL"
+			(at 339.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7106c79c-1c9f-470a-a077-c0044fc2a0cb")
+		)
+		(pin "1"
+			(uuid "925078fe-ecf2-4f57-beb3-f073b79356eb")
+		)
+		(pin "2"
+			(uuid "f766664e-6d89-4223-82e5-cb42e7e12028")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13938,6 +13998,76 @@
 			(project "DRV8701-ESD"
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky_AKA")
+		(at 340.36 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a66e7d63-0dd8-4d0d-925b-3d35c87f0fbf")
+		(property "Reference" "D3"
+			(at 340.36 150.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RBR10N"
+			(at 342.138 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://prod-parts-data.s3.amazonaws.com/RBR10NS40AFHTL/datasheet/1_RBR10NS40AFHTL-Rohm-datasheet-142143708.pdf"
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RBR10NS40AFHTL"
+			(at 340.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f0e16d8a-42fe-4f55-a327-0ad145cd7547")
+		)
+		(pin "1"
+			(uuid "0cfd595b-9eb7-4e5d-9048-a5adf1ba61af")
+		)
+		(pin "2"
+			(uuid "bedbac6c-e1c0-4070-88ca-d4d91cd54d55")
+		)
+		(instances
+			(project ""
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16158,73 +16288,6 @@
 			(project "DRV8701-ESD"
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 339.09 152.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb9065e5-fc2c-4e37-871a-943f8d4d7968")
-		(property "Reference" "D3"
-			(at 339.598 154.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RBR10N"
-			(at 339.598 157.226 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 339.09 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://prod-parts-data.s3.amazonaws.com/RBR10NS40AFHTL/datasheet/1_RBR10NS40AFHTL-Rohm-datasheet-142143708.pdf"
-			(at 339.09 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RBR10NS40AFHTL"
-			(at 339.09 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17674b43-1aab-4ef3-b531-ce2f4e25d5aa")
-		)
-		(pin "1"
-			(uuid "37e9a7fa-45cb-444e-b97f-98e1678c1702")
-		)
-		(instances
-			(project "DRV8701-ESD"
-				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
-					(reference "D3")
 					(unit 1)
 				)
 			)
