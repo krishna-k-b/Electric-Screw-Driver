@@ -12609,7 +12609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Net_Ties:NetTie-2_SMD_Pad0.2mm"
+		(property "Footprint" "Net_Ties:Net_tie_SMD_0.3mm"
 			(at 99.06 227.33 0)
 			(effects
 				(font
@@ -13629,7 +13629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Net_Ties:NetTie-2_SMD_Pad0.2mm"
+		(property "Footprint" "Net_Ties:Net_tie_SMD_0.3mm"
 			(at 99.06 218.44 0)
 			(effects
 				(font
