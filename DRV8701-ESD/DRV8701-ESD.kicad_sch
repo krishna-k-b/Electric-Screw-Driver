@@ -5365,6 +5365,12 @@
 		(uuid "ce4f31c3-3a61-415c-9ed4-939941e6f08f")
 	)
 	(junction
+		(at 137.16 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d37eeb66-b5d8-4e91-a0a7-edacb9581528")
+	)
+	(junction
 		(at 104.14 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5498,6 +5504,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 118.11) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025b7088-4f51-406b-be6b-ad8119c19da5")
+	)
+	(wire
+		(pts
 			(xy 265.43 147.32) (xy 265.43 154.94)
 		)
 		(stroke
@@ -5525,6 +5541,16 @@
 			(type default)
 		)
 		(uuid "033792e3-08f3-44e9-aca0-a64a24e0cbb0")
+	)
+	(wire
+		(pts
+			(xy 124.46 113.03) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a7b9d6-579a-4445-8866-613d63ff6b91")
 	)
 	(wire
 		(pts
@@ -5645,6 +5671,16 @@
 			(type default)
 		)
 		(uuid "12c926b2-b961-4920-827b-9129580c7913")
+	)
+	(wire
+		(pts
+			(xy 137.16 118.11) (xy 137.16 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13351c90-b0d1-48a5-84d3-9ecb4271a5ae")
 	)
 	(wire
 		(pts
@@ -6668,6 +6704,16 @@
 	)
 	(wire
 		(pts
+			(xy 295.91 92.71) (xy 295.91 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1492f15-04c5-4f10-98cb-8bfccf1ae2af")
+	)
+	(wire
+		(pts
 			(xy 111.76 111.76) (xy 111.76 114.3)
 		)
 		(stroke
@@ -6735,6 +6781,16 @@
 			(type default)
 		)
 		(uuid "a7046309-0bb8-433a-b5ce-77ab2c5d0c9e")
+	)
+	(wire
+		(pts
+			(xy 137.16 119.38) (xy 137.16 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c48f06-16e1-4d5c-b13b-95e13f4a0ac3")
 	)
 	(wire
 		(pts
@@ -6825,6 +6881,16 @@
 			(type default)
 		)
 		(uuid "b1fe4679-7015-4cfd-b541-0a52157e08f8")
+	)
+	(wire
+		(pts
+			(xy 124.46 121.92) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38d0b58-a520-4ecb-9396-50ec1168b7f2")
 	)
 	(wire
 		(pts
@@ -7248,6 +7314,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 107.95) (xy 137.16 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eef0cc07-9274-46d3-8b3a-6e00409ab916")
+	)
+	(wire
+		(pts
 			(xy 90.17 227.33) (xy 96.52 227.33)
 		)
 		(stroke
@@ -7365,6 +7441,16 @@
 			(type default)
 		)
 		(uuid "ff3a985e-291c-456c-b0f2-fe968334faf7")
+	)
+	(label "POT_SIG"
+		(at 295.91 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "038a8e5c-6b92-49a3-8053-e2efb3fb5d80")
 	)
 	(label "SH1"
 		(at 88.9 189.23 180)
@@ -7646,6 +7732,16 @@
 		)
 		(uuid "4a03b12c-15bf-450a-b8cd-01a13115f384")
 	)
+	(label "SO"
+		(at 124.46 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d3945e0-e9b0-4846-b85e-b0624c9ffcca")
+	)
 	(label "AVDD"
 		(at 90.17 101.6 0)
 		(effects
@@ -7695,16 +7791,6 @@
 			(justify left bottom)
 		)
 		(uuid "5bd7366b-6cfe-4efa-a742-f3ec7fe27d1c")
-	)
-	(label "SO"
-		(at 274.32 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "60539397-e8c7-49f4-aab0-1f558f2dcc37")
 	)
 	(label "VCC"
 		(at 35.56 109.22 0)
@@ -7926,6 +8012,16 @@
 		)
 		(uuid "9f44055c-cb35-49d4-bf10-b10c85d62861")
 	)
+	(label "SO"
+		(at 137.16 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3a4886c-6a33-4a79-af10-6b2e6537073d")
+	)
 	(label "GH2"
 		(at 111.76 44.45 180)
 		(effects
@@ -7945,6 +8041,16 @@
 			(justify right bottom)
 		)
 		(uuid "a849688a-9443-401a-9492-98e9e4257063")
+	)
+	(label "SO_MCU"
+		(at 274.32 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a998d211-7123-4dc6-b572-e999f96ebcb3")
 	)
 	(label "VCC"
 		(at 139.7 171.45 180)
@@ -8115,6 +8221,16 @@
 			(justify left bottom)
 		)
 		(uuid "e2848f08-9c2e-4d27-b201-4a57897320ac")
+	)
+	(label "SO_MCU"
+		(at 146.05 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e372c432-d765-4900-af29-771fa6eac8f4")
 	)
 	(label "CW"
 		(at 331.47 31.75 180)
@@ -8849,6 +8965,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.46 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "156bd290-0c4f-4e78-90c1-ee23f2c29eb2")
+		(property "Reference" "C23"
+			(at 126.746 116.586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 128.778 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC " ""
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partno" ""
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" "50V"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 124.46 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17c79d08-a74a-4989-9748-56e53ad5555e")
+		)
+		(pin "2"
+			(uuid "bcb48c9e-6f24-4441-8e5a-464e447b5260")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 256.54 161.29 0)
 		(unit 1)
@@ -9497,6 +9718,73 @@
 			(project "DRV8701-ESD"
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25affd68-94d6-4654-9427-1670d91bbf52")
+		(property "Reference" "#PWR021"
+			(at 124.46 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bc62be2-d8ff-42b0-a0f3-f7a502625db9")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11037,6 +11325,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 295.91 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "442f9459-c51e-4d9c-9e49-b90d89721411")
+		(property "Reference" "#PWR023"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 295.656 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 295.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce3b5e39-e68f-4ea6-bc2d-593c2726df76")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 105.41 228.6 0)
 		(unit 1)
@@ -11163,6 +11516,111 @@
 			(project "DRV8701-ESD"
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "453fed58-8bcc-4510-8784-7a72bc037442")
+		(property "Reference" "R16"
+			(at 135.128 112.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 139.446 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 138.938 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC " ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partno" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15863965-05fc-449b-aee6-a47a7b30f04b")
+		)
+		(pin "1"
+			(uuid "20dbde44-a1fc-43a6-992e-0a0e4dd979d7")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -12876,6 +13334,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 137.16 123.19 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b4dc8b8-a68c-40fa-aff6-369ab4304c11")
+		(property "Reference" "R17"
+			(at 135.128 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 139.446 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 138.938 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC " ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partno" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 137.16 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 137.16 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9304e43d-978a-45fe-a13c-e55af5fa0137")
+		)
+		(pin "1"
+			(uuid "14b4c12b-64e6-47df-9030-e1f820882838")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 22.86 20.32 180)
 		(unit 1)
@@ -14380,6 +14943,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "987e56a6-8655-4183-a11f-964e05b4c9d1")
+		(property "Reference" "#PWR020"
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c83c3c9d-62c1-439e-a42b-e21699234c08")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:NetTie_2")
 		(at 99.06 218.44 0)
 		(unit 1)
@@ -14846,6 +15476,73 @@
 			(project ""
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 295.91 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afbb6ed2-7822-4925-9622-459e687969ca")
+		(property "Reference" "#PWR022"
+			(at 295.91 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 295.91 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 295.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 295.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df1805f1-9f36-41b3-9676-dac84636c488")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16254,6 +16951,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 295.91 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cbf3e494-8adf-4b7b-898c-54736baec88d")
+		(property "Reference" "R19"
+			(at 297.942 97.536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 293.624 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 294.132 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 295.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC " ""
+			(at 295.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partno" ""
+			(at 295.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 295.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 295.91 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2201759a-d412-44b4-a78a-6628907895b3")
+		)
+		(pin "1"
+			(uuid "92fb1a4c-6930-4f44-9a0b-0eda68143ece")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 252.73 220.98 0)
 		(unit 1)
@@ -17201,6 +18003,111 @@
 			(project "DRV8701-ESD"
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 295.91 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "ef45397f-6bda-4a78-84be-6bdb07cd1cd3")
+		(property "Reference" "R18"
+			(at 297.942 83.566 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 293.624 84.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 294.132 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC " ""
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "partno" ""
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 295.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 295.91 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "729ae211-bdd6-4a4e-8396-1ae24d103c43")
+		)
+		(pin "1"
+			(uuid "299158b2-2108-4f38-aad3-a906bba8eeeb")
+		)
+		(instances
+			(project "DRV8701-ESD"
+				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
+					(reference "R18")
 					(unit 1)
 				)
 			)
