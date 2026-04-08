@@ -5173,6 +5173,18 @@
 		)
 		(uuid "dee4603e-ee2a-4126-935a-bee6ab497d9a")
 	)
+	(text "RVP"
+		(exclude_from_sim no)
+		(at 335.28 189.738 0)
+		(effects
+			(font
+				(face "Bookman Old Style")
+				(size 3 3)
+				(thickness 0.625)
+			)
+		)
+		(uuid "e38ac279-cc77-4ad6-8652-d62c808b801c")
+	)
 	(text "Connector and caps"
 		(exclude_from_sim no)
 		(at 331.47 122.682 0)
@@ -5541,16 +5553,6 @@
 			(type default)
 		)
 		(uuid "033792e3-08f3-44e9-aca0-a64a24e0cbb0")
-	)
-	(wire
-		(pts
-			(xy 124.46 113.03) (xy 124.46 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a7b9d6-579a-4445-8866-613d63ff6b91")
 	)
 	(wire
 		(pts
@@ -6574,16 +6576,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 74.93) (xy 104.14 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "939f988c-437a-474d-b8d9-2ee3c4f15e3f")
-	)
-	(wire
-		(pts
 			(xy 251.46 147.32) (xy 265.43 147.32)
 		)
 		(stroke
@@ -6881,16 +6873,6 @@
 			(type default)
 		)
 		(uuid "b1fe4679-7015-4cfd-b541-0a52157e08f8")
-	)
-	(wire
-		(pts
-			(xy 124.46 121.92) (xy 124.46 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b38d0b58-a520-4ecb-9396-50ec1168b7f2")
 	)
 	(wire
 		(pts
@@ -7204,13 +7186,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 73.66) (xy 116.84 74.93)
+			(xy 104.14 74.93) (xy 111.76 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dedcd935-8668-40da-bec8-a33dfcc60417")
+		(uuid "de8de2a3-f610-45a5-ad7b-2c5f32ac9822")
 	)
 	(wire
 		(pts
@@ -7732,16 +7714,6 @@
 		)
 		(uuid "4a03b12c-15bf-450a-b8cd-01a13115f384")
 	)
-	(label "SO"
-		(at 124.46 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d3945e0-e9b0-4846-b85e-b0624c9ffcca")
-	)
 	(label "AVDD"
 		(at 90.17 101.6 0)
 		(effects
@@ -7941,6 +7913,16 @@
 			(justify left bottom)
 		)
 		(uuid "83a94e6a-1f37-4476-b97b-1d67e5bd0385")
+	)
+	(label "AVDD"
+		(at 111.76 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ae80359-ca28-4b4b-9d5a-088a11f58a2f")
 	)
 	(label "VCC"
 		(at 57.15 39.37 0)
@@ -8965,111 +8947,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 124.46 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "156bd290-0c4f-4e78-90c1-ee23f2c29eb2")
-		(property "Reference" "C23"
-			(at 126.746 116.586 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 128.778 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC " ""
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "partno" ""
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "50V"
-			(at 124.46 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 124.46 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17c79d08-a74a-4989-9748-56e53ad5555e")
-		)
-		(pin "2"
-			(uuid "bcb48c9e-6f24-4441-8e5a-464e447b5260")
-		)
-		(instances
-			(project "DRV8701-ESD"
-				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 256.54 161.29 0)
 		(unit 1)
@@ -9528,71 +9405,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 116.84 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2229c8c8-5887-47cc-9016-2e019000b95b")
-		(property "Reference" "#PWR015"
-			(at 116.84 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 116.586 70.358 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54463f06-10dd-4abd-b1de-5d8a92da08c6")
-		)
-		(instances
-			(project "DRV8701-ESD"
-				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 204.47 0)
 		(unit 1)
@@ -9724,73 +9536,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 124.46 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25affd68-94d6-4654-9427-1670d91bbf52")
-		(property "Reference" "#PWR021"
-			(at 124.46 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bc62be2-d8ff-42b0-a0f3-f7a502625db9")
-		)
-		(instances
-			(project "DRV8701-ESD"
-				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Small")
 		(at 270.51 147.32 90)
 		(unit 1)
@@ -9815,7 +9560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
+		(property "Footprint" "Inductor_SMD_Custom:L_SMD_6mmx6mm"
 			(at 270.51 147.32 0)
 			(effects
 				(font
@@ -10834,7 +10579,7 @@
 		(dnp no)
 		(uuid "3917ed2b-6645-4582-b5b6-bfcd87f290fa")
 		(property "Reference" "C19"
-			(at 325.12 106.68 0)
+			(at 324.358 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
