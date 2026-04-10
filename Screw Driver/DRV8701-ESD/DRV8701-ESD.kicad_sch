@@ -7556,16 +7556,6 @@
 		)
 		(uuid "189071af-736d-4cd8-aa6a-729e62da39ae")
 	)
-	(label "SWCLK"
-		(at 397.51 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c351354-8d87-4a24-a988-5f03f7e49e65")
-	)
 	(label "5V_BST"
 		(at 292.1 147.32 180)
 		(effects
@@ -7906,16 +7896,6 @@
 		)
 		(uuid "74004bd3-95c1-4d7a-9fa7-978bacf7ae65")
 	)
-	(label "DEBUG_RX"
-		(at 397.51 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74fab25a-a30d-41c7-adbf-edac05561567")
-	)
 	(label "MAIN_SW"
 		(at 320.04 60.96 0)
 		(effects
@@ -8025,16 +8005,6 @@
 			(justify right bottom)
 		)
 		(uuid "93f31df8-ba97-4f5b-82d7-e181d9939575")
-	)
-	(label "DEBUG_TX"
-		(at 397.51 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "946d81bd-6a1a-48e4-ac90-e7dd09b6cc16")
 	)
 	(label "GL2"
 		(at 114.3 196.85 0)
@@ -8305,16 +8275,6 @@
 			(justify left bottom)
 		)
 		(uuid "eb929e29-d4af-49c8-84f7-8ab3917d82b6")
-	)
-	(label "SWDIO"
-		(at 397.51 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edb46a07-cfb1-4d4b-85b0-0285d453fa77")
 	)
 	(label "SP_TOP"
 		(at 105.41 218.44 0)
@@ -12227,83 +12187,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 392.43 109.22 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5542ac8a-6e64-4423-a2ca-96298f51e142")
-		(property "Reference" "J16"
-			(at 392.6373 115.8115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 398.018 99.822 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Molex_PicoBlade_53398-0571_1x05-1MP_P1.25mm_Vertical"
-			(at 392.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 392.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 392.43 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e95e4b13-ea66-44af-a163-640e583a402c")
-		)
-		(pin "5"
-			(uuid "ca94f3c0-d660-432c-b12e-a14e18d0fa2c")
-		)
-		(pin "4"
-			(uuid "58cfd570-30b6-4ff4-8ff3-9c68f76bb3b4")
-		)
-		(pin "3"
-			(uuid "3a50184e-e8bb-4128-b9ff-94ead03b2075")
-		)
-		(pin "1"
-			(uuid "9633f7fa-17b3-4220-8f21-bf21f1cf1aa6")
-		)
-		(instances
-			(project "DRV8701-ESD"
-				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 231.14 179.07 90)
 		(unit 1)
@@ -15690,73 +15573,6 @@
 			(project ""
 				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 397.51 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af4f1ef8-7a2c-4715-b3b8-9c3fcc57e276")
-		(property "Reference" "#PWR015"
-			(at 397.51 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 397.51 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 397.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 397.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 397.51 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39812fdb-439e-4303-8e78-b2f435b9cf72")
-		)
-		(instances
-			(project "DRV8701-ESD"
-				(path "/b24bf440-a013-4035-96b7-c33cc728982a"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
