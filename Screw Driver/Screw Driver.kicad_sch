@@ -12191,6 +12191,15 @@
 				(hide yes)
 			)
 		)
+		(property "MFP" ""
+			(at 161.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "ce968316-1b08-4e58-9669-baf9b3445288")
 		)
@@ -13119,7 +13128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "NTMFS2D5N08XT1G"
+		(property "MFP" "NTMFS2D5N08XT1G"
 			(at 273.05 981.61 0)
 			(effects
 				(font
