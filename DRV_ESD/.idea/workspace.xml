@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue" value="4" type="long" />
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug">
+        <ADDITIONAL_GENERATION_ENVIRONMENT>
+          <envs>
+            <env name="PICO_SDK_PATH" value="$USER_HOME$/pico/pico-sdk" />
+          </envs>
+        </ADDITIONAL_GENERATION_ENVIRONMENT>
+      </configuration>
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="df4cd647-ab7f-4735-818e-c95c4892d39b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/.history" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/.step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-07_112826.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-07_114642.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-07_233738.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-07_234746.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-08_121454.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-08_231558.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-08_232837.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-08_234400.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-08_235725.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-09_230355.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-09_231314.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-09_232409.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-09_233750.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-09_234818.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-10_002647.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-10_010916.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-10_232637.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-10_233643.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-10_235035.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-11_114318.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-11_115329.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-11_121935.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-11_122649.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-11_200721.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_135008.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_140152.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_140159.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_140313.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_140318.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_140334.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_140353.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_141359.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_141456.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_142101.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_142103.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-12_153638.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-13_233313.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-13_233347.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-13_233422.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-13_233823.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-21_110432.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD.kicad_pcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD.kicad_prl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD.kicad_pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD.kicad_sch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV8701-ESD.kicad_sch-bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_ESD.step" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/.vscode/c_cpp_properties.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/.vscode/cmake-kits.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/DRV_Pico_ESD.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/DRV_Pico_ESD/pico_sdk_import.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/bom/ibom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/fp-info-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/fp-lib-table" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/gerber_to_order/DRV8701-ESD_55.0x95.0mm_for_Default.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/gerber_to_order/DRV8701-ESD_55.0x95.0mm_for_JLCPCB.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/ImportGuides.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/KiCADv6/2026-04-03_10-20-58.kicad_sym" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/KiCADv6/ImportGuide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/KiCADv6/footprints.pretty/RGE0024F.kicad_mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/KiCADv6/footprints.pretty/RGE0024F_NV.kicad_mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/qfn-24-1.snapshot.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/qfn-24-1.snapshot.1/OFN24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/qfn-24-1.snapshot.1/QFN 24.STEP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/qfn-24-1.snapshot.1/QFN 24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DRV8701-ESD/ul_DRV8701ERGER/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-07_112826.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-07_114642.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-07_233738.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD-backups/DRV8701-ESD-2026-04-07_234746.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD.kicad_pcb" beforeDir="false" afterPath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD.kicad_pcb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD.kicad_prl" beforeDir="false" afterPath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD.kicad_prl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD.kicad_sch" beforeDir="false" afterPath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD.kicad_sch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD.kicad_sch-bak" beforeDir="false" afterPath="$PROJECT_DIR$/../Screw Driver/DRV8701-ESD/DRV8701-ESD.kicad_sch-bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-12_122108.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-12_122837.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-12_123551.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-16_110936.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-17_110946.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-17_112019.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-17_113037.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-17_113818.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-17_114521.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-18_100658.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-18_102038.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-18_103041.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-18_104315.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-18_111636.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-21_153926.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-22_123332.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-22_124438.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-22_131353.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-22_132521.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-22_140643.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-03-23_234016.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-04-01_090703.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-04-01_094741.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-04-01_101608.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver-backups/Screw Driver-2026-04-03_152558.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver.kicad_pcb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver.kicad_prl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver.kicad_pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver.kicad_sch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/Screw Driver.kicad_sch-bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/fp-info-cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/plots/Screw Driver__Assembly.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/sym-lib-table" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/~Screw Driver.kicad_pcb.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screw Driver/~Screw Driver.kicad_sch.lck" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="aMJAkVLR" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3DMX63ksRpMXSfEdlyhir2yU9SS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df4cd647-ab7f-4735-818e-c95c4892d39b" name="Changes" comment="" />
+      <created>1778092735154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778092735154</updated>
+      <workItem from="1778092736813" duration="904000" />
+      <workItem from="1778127938155" duration="1091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+</project>
